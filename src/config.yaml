@@ -1,0 +1,10 @@
+repo_id: bartowski/gemma-2-2b-it-GGUF
+model_name: gemma-2-2b-it-Q8_0.gguf
+local_dir: gguf/
+output_file: data/qp_pairs.json
+temperature: 0.8
+chunk_size: 512
+train_json_path: data/train_collection.json
+train_csv_path: data/train.csv
+test_json_path: data/test_collection.json
+test_csv_path: data/test.csv
